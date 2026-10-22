@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production builds
+dist/
+**/dist/
+
+# Local Environment Variables
+.env
+**/.env
+
+# Local SQLite Database & Logs
+database/
+**/database/
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
